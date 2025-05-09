@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird Clone</title>
+    <!-- Load CreateJS Library -->
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <!-- Load Your Game Code -->
+    <script src="flappy.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+            margin: auto;
+            background-color: #70C6CE; /* Sky color */
+        }
+    </style>
+</head>
+<body onload="init();">
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+</body>
+</html>
